@@ -1,6 +1,6 @@
 # E-Commerce Analytics
 
-SQL-driven business analysis of a Brazilian e-commerce marketplace — 99k orders, 3k sellers, 74 product categories across two years of transaction data. Each notebook tackles a real stakeholder question with SQL queries, visualizations, and actionable recommendations.
+SQL-driven business analysis of a Brazilian e-commerce marketplace - 99k orders, 3k sellers, 74 product categories across two years of transaction data. Each notebook tackles a real stakeholder question with SQL queries, visualizations, and actionable recommendations.
 
 Built with DuckDB for portable, zero-config SQL (same syntax as PostgreSQL).
 
@@ -9,7 +9,7 @@ Built with DuckDB for portable, zero-config SQL (same syntax as PostgreSQL).
 ### [01 — Revenue & Growth](notebooks/01_revenue_and_growth.ipynb)
 Monthly revenue trends, month-over-month growth rates, top product categories, revenue concentration (Pareto), payment method breakdown, day-of-week patterns.
 
-**Key finding:** Revenue scaled ~25x in under two years, peaking near R$1M/month. 24% of categories generate 80% of revenue — moderate concentration. Credit cards with installments dominate (74% of transactions, avg 3.5 installments), meaning top-line revenue and actual cash collected diverge significantly.
+**Key finding:** Revenue scaled ~25x in under two years, peaking near 1M dollar/month. 24% of categories generate 80% of revenue — moderate concentration. Credit cards with installments dominate (74% of transactions, avg 3.5 installments), meaning top-line revenue and actual cash collected diverge significantly.
 
 ### [02 — Customer Behavior](notebooks/02_customer_behavior.ipynb)
 Repeat purchase rates, monthly cohort retention heatmap, time-to-second-purchase, new vs returning revenue split, AOV by purchase number.
@@ -19,7 +19,7 @@ Repeat purchase rates, monthly cohort retention heatmap, time-to-second-purchase
 ### [03 — Delivery & Operations](notebooks/03_delivery_and_operations.ipynb)
 Delivery time distribution, late delivery rates, delivery by state, late delivery impact on reviews (dose-response), monthly delivery trend.
 
-**Key finding:** Late deliveries average 2.57 stars vs 4.29 for on-time — a 1.7-point gap. The damage is proportional: 1-2 weeks late craters to 1.68 stars. The cheapest fix may be adjusting delivery estimates for remote states rather than overhauling logistics.
+**Key finding:** Late deliveries average 2.57 stars vs 4.29 for on-time- a 1.7-point gap. The damage is proportional: 1-2 weeks late craters to 1.68 stars. The cheapest fix may be adjusting delivery estimates for remote states rather than overhauling logistics.
 
 ### [04 — Seller Performance](notebooks/04_seller_performance.ipynb)
 Seller revenue concentration, tier segmentation, quality ratings, geographic distribution.
